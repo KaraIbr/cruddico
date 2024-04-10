@@ -1,0 +1,4 @@
+function comprobar_documentos(TABLE_DOCUMENTOS){
+    var TIPO_DOCUMENTO= TIPO_DOCUMENTO; 
+    var FECHA_ELABORACION= FECHA_ELABORACION.getElementById("FECHA_ELABORACION").value; 
+}

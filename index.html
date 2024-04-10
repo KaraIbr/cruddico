@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    
+</head>
+<!--El objetivo de este form es dar de alta valores en la tabla documentos, a su vez, mostrar consultas  !-->
+<body>
+    <h3>Agrega la siguiente informacion para cargar datos a documentos  </h3>
+
+    <form class="form" action="main.php" method="post"> 
+        <label class="#"  >tipo de documento:  </label>
+        <input type="text"  id="TIPO_DOCUMENTO" name="TIPO_DOCUMENTO"> </input>
+        <label class="#"  >fecha de elaboracion </label>
+        <input type="date"  id="FECHA_ELABORACION" name="FECHA_ELABORACION"> </input>
+        <label class="#"  >id del proveedor  </label>
+        <input type="text"  id="ID_PROVEEDOR" name="ID_PROVEEDOR"> </input>
+        <label class="#"  >partida  </label>
+        <input type="text"  id="PARTIDA" name="PARTIDA"> </input>
+
+          <input class="btn" type="submit" value="guardar"> </input>     
+          <button>Consultar   </button>         
+ 
+    </form>
+          <!--Script de consulta de la base de datos   !-->
+
+          
+            <script src='/main.js'></script>
+
+        
+</body>
+</html>
